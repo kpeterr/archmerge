@@ -5,7 +5,7 @@ echo "################################################################"
 
 echo "Uninstall broadcom-wl driver:"
 echo "################################################################"
-sudo pacman -R --noconfirm --needed broadcom-wl
+sudo pacman -R --noconfirm broadcom-wl
 echo "Done"
 
 echo "Install broadcom-wl-dkms driver:"
